@@ -3,7 +3,6 @@ package Assignment;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
 
 import java.util.concurrent.TimeUnit;
 
@@ -134,14 +133,3 @@ public class PolitripSignUp {
             PS.EmptyData2();
     }
 }
-
-
-
-
-
-
-//    WebElement AboutUs = driver.findElement(By.id("sign-up-heard-input"));
-//    Select AboutUsDropDown = new Select(AboutUs);
-//        AboutUsDropDown.selectByVisibleText("Web-Search");
-//
-//        driver.findElement(By.id("qa_loader-button")).click();
